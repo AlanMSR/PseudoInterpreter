@@ -1,0 +1,19 @@
+def mayor(x, y)
+    si (x > y) entonces
+        regresa x
+    fin-si
+    regresa y
+end-def
+
+inicio-programa
+    variables: a, b, r
+
+    escribir "Ingresa a: "
+    leer a
+
+    repite(a, (a < 3), 1)
+        escribir "holaa ", a
+    fin-repite
+
+
+fin-programa
